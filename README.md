@@ -1,59 +1,34 @@
-Em breve...
-<!-- # 🔑 Keycloak React App - v1.0.0
+# 🔑 Keycloak Cluster Service
 
-Aplicação React simples integrada com um servidor de autenticação Keycloak clusterizado.
-
-
-## ✔️ Objetivo
-
-Este projeto tem como objetivo demonstrar de forma simples a integração de uma aplicação React com um cluster Keycloak. A aplicação consiste em apenas duas páginas, sendo uma pública e uma privada. Ao tentar acessar a página privada, a requisição é enviada para o Keycloak que trata a autenticação do usuário e retorna para a página privada uma vez que a autenticação ocorreu com sucesso.
+Serviço de autenticação Keycloak em cluster com Nginx load balancer, integrado com banco de dados PostgreSQL, conteinerizado e orquestrado com Docker.
 
 
-## ⚠️ Dependências
+## ✔️ Objetivo e Funcionalidade
 
-Esta aplicação depende de um servidor de autenticação Keycloak rodando em paralelo para funcionar corretamente. 
+Prover soluções de autenticação e gerenciamento de usuários para endpoints por meio de um serviço arquitetado em cluster. A requisição é recebida pelo Nginx, que atua como load balancer, direcionando para alguma das duas instâncias do Keycloak, ambas integradas a um mesmo banco de dados PostgreSQL.
 
-Você pode obter a solução completa do serviço de autenticação Keycloak clusterizado através do seguinte repositório:
-
-👉🏻 **[Keycloak Cluster Service](https://github.com/passosleo/keycloak-cluster-service)** 👈🏻
 
 ## 🚀 Tecnologias Utilizadas
 
-* ReactJS
-* React Router
-* Keycloak
 * Docker
+* Keycloak
+* Nginx
+* PostgreSQL
+
+## ⚠️ Dependências
+
+**[Docker](https://www.docker.com/)**
 
 
-## 🔧 Instalação
+## 🐳 Endpoint (Opcional)
 
-1️⃣ - Baixe o repositório em um local de sua preferência:
-```
-git clone https://github.com/passosleo/keycloak-react-app.git
-```
+O repositório abaixo provê uma aplicação front-end simples em ReactJS integrada com o Keycloak para fins de teste do Keycloak Cluster Service. 
 
-2️⃣ - Acesse a pasta do projeto:
-```
-cd keycloak-react-app
-```
-
-3️⃣ - Instale as dependências:
-```
-npm install
-```
-
-4️⃣ - Inicie o projeto:
-```
-npm start
-```
-
-5️⃣ - Acesse no navegador:
-```
-http://localhost:3000/
-```
+**[Keycloak React App](https://github.com/passosleo/keycloak-react-app)**
 
 
-## 🐳 Instalação com Docker
+
+<!-- ## 🐳 Instalação
 
 1️⃣ - Rode o comando abaixo:
 ```
