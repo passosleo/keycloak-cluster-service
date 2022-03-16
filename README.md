@@ -1,11 +1,11 @@
 # 🔑 Keycloak Cluster Service
 
-Serviço de autenticação Keycloak em cluster com Nginx load balancer, integrado com banco de dados PostgreSQL, conteinerizado e orquestrado com Docker.
+Serviço de autenticação Keycloak em cluster com NGINX load balancer, integrado com banco de dados PostgreSQL, conteinerizado e orquestrado com Docker.
 
 
 ## ✔️ Objetivo e Funcionalidade
 
-Prover soluções de autenticação e gerenciamento de usuários para endpoints por meio de um serviço arquitetado em cluster. A requisição é recebida pelo Nginx, que atua como load balancer, direcionando para alguma das duas instâncias do Keycloak, ambas integradas a um mesmo banco de dados PostgreSQL. O serviço roda de forma conteinerizada orquestrada pelo Docker.
+Prover soluções de autenticação e gerenciamento de usuários para endpoints por meio de um serviço arquitetado em cluster. A requisição é recebida pelo NGINX, que atua como load balancer, direcionando para alguma das duas instâncias do Keycloak, ambas integradas a um mesmo banco de dados PostgreSQL. O serviço roda de forma conteinerizada orquestrada pelo Docker.
 
 ## 🔁 Fluxograma
 
@@ -16,7 +16,7 @@ Prover soluções de autenticação e gerenciamento de usuários para endpoints 
 
 * Docker
 * Keycloak
-* Nginx
+* NGINX
 * PostgreSQL
 
 ## ⚠️ Dependências
@@ -90,6 +90,8 @@ A porta pode ser configurada no arquivo nginx.conf:
 
 ![image](https://user-images.githubusercontent.com/90735184/158616231-e1dd5e4b-5037-40b4-9acc-9c02e41ac7c3.png)
 
+
+* Os serviços podem ser gerenciados pelo Docker através dos seus respectivos nomes, conforme legenda:
 ```
 kb_lb -> NGINX Load Balancer
 kc1 -> Keycloak Auth Server 1
