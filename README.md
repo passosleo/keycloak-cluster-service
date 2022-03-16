@@ -10,7 +10,7 @@ Prover soluções de autenticação e gerenciamento de usuários para endpoints 
 ## 🔁 Fluxograma
 
 <p align="center">
-<img align="center" width="200" src="https://user-images.githubusercontent.com/90735184/158608991-10152f05-e6af-4f9e-b3d8-7e485b406908.png">
+<img align="center" width="600" src="https://user-images.githubusercontent.com/90735184/158608991-10152f05-e6af-4f9e-b3d8-7e485b406908.png">
 </p>
 
 
