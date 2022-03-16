@@ -71,12 +71,19 @@ http://localhost:8000/
 
 Encerre alguma das instâncias do keycloak:
 ```
-docker kill kc1 # ou # docker kill kc2
+docker kill kc1 
+ou
+docker kill kc2
 ```
 
 Ao encerrar qualquer uma das instâncias, o painel administrativo deve permanecer acessível e com a sessão ativa.
 
 Para retomar a execução do Keycloak:
 ```
-docker start kc1 # ou # docker start kc2
+docker start kc1
+ou
+docker start kc2
 ```
+
+A porta pode ser configurada no arquivo nginx.conf:
+![image](https://user-images.githubusercontent.com/90735184/158615263-5e016e92-6639-4c61-936c-eb0aad07d809.png)
