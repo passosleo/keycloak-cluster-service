@@ -20,7 +20,7 @@ Prover soluções de autenticação e gerenciamento de usuários para endpoints 
 Este serviço requer o **[Docker](https://www.docker.com/)** para ser executado.
 
 
-## 🐳 Endpoint (Opcional)
+## 🖥️ Endpoint (Opcional)
 
 O repositório abaixo provê uma aplicação front-end simples em ReactJS integrada com o Keycloak para fins de teste do Keycloak Cluster Service. 
 
