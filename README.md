@@ -7,7 +7,7 @@ Serviço de autenticação Keycloak em cluster com Nginx load balancer, integrad
 
 Prover soluções de autenticação e gerenciamento de usuários para endpoints por meio de um serviço arquitetado em cluster. A requisição é recebida pelo Nginx, que atua como load balancer, direcionando para alguma das duas instâncias do Keycloak, ambas integradas a um mesmo banco de dados PostgreSQL. O serviço roda de forma conteinerizada orquestrada pelo Docker.
 
-(https://user-images.githubusercontent.com/90735184/158608991-10152f05-e6af-4f9e-b3d8-7e485b406908.png)
+!(https://user-images.githubusercontent.com/90735184/158608991-10152f05-e6af-4f9e-b3d8-7e485b406908.png)
 
 
 
