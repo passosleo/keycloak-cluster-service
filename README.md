@@ -91,7 +91,7 @@ A porta pode ser configurada no arquivo nginx.conf:
 ![image](https://user-images.githubusercontent.com/90735184/158616231-e1dd5e4b-5037-40b4-9acc-9c02e41ac7c3.png)
 
 
-* Os serviços podem ser gerenciados pelo Docker através dos seus respectivos nomes, conforme legenda:
+Os serviços podem ser gerenciados pelo Docker através dos seus respectivos nomes, conforme legenda:
 ```
 kb_lb -> NGINX Load Balancer
 kc1 -> Keycloak Auth Server 1
