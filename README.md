@@ -62,7 +62,8 @@ docker ps
 ```
 
 Se tudo ocorreu bem, você verá quatro containers:
-![image](https://user-images.githubusercontent.com/90735184/158614179-a80121f0-b36d-443f-87a3-a0e5256bcf3a.png)
+
+![image](https://user-images.githubusercontent.com/90735184/158616056-bd4da1ca-c1bf-4f28-b0b6-85eeb98a1ceb.png)
 
 Acesse o painel administrativo do Keycloak em:
 ```
@@ -76,7 +77,7 @@ ou
 docker kill kc2
 ```
 
-Ao encerrar qualquer uma das instâncias, o painel administrativo deve permanecer acessível e com a sessão ativa.
+Ao encerrar qualquer uma das instâncias, o painel administrativo deve permanecer acessível e com a sessão ativa. Caso esteja integrado ao front-end, os usuários devem permanecer aptos a realizar login ou com suas respectivas sessões ativas.
 
 Para retomar a execução do Keycloak:
 ```
@@ -86,4 +87,13 @@ docker start kc2
 ```
 
 A porta pode ser configurada no arquivo nginx.conf:
-![image](https://user-images.githubusercontent.com/90735184/158615263-5e016e92-6639-4c61-936c-eb0aad07d809.png)
+
+![image](https://user-images.githubusercontent.com/90735184/158616231-e1dd5e4b-5037-40b4-9acc-9c02e41ac7c3.png)
+
+```
+kb_lb -> NGINX Load Balancer
+kc1 -> Keycloak Auth Server 1
+kc2 -> Keycloak Auth Server 2
+kc_db -> PostgreSQL Database
+```
+
