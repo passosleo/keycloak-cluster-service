@@ -28,14 +28,24 @@ O repositório abaixo provê uma aplicação front-end simples em ReactJS integr
 
 
 
-<!-- ## 🐳 Instalação
+## 🐳 Instalação
 
-1️⃣ - Rode o comando abaixo:
+Baixe o repositório em um local de sua preferência:
 ```
-docker run -d -p 3000:3000 --name keycloak-react-app leopassos/keycloak-react-app:1.0
+git clone https://github.com/passosleo/keycloak-cluster-service.git
 ```
 
-2️⃣ - Acesse no navegador:
+Acesse a pasta do projeto:
 ```
-http://localhost:3000/
-``` -->
+cd keycloak-cluster-service
+```
+
+Rode o comando abaixo:
+```
+docker compose up -f docker-compose.yml
+```
+
+Acesse o painel administrativo do Keycloak em:
+```
+http://localhost:8000/
+```
