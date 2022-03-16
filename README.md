@@ -28,7 +28,11 @@ Este serviço requer o **[Docker](https://www.docker.com/)** para ser executado.
 
 O repositório abaixo provê uma aplicação front-end simples em ReactJS integrada com o Keycloak para fins de teste do Keycloak Cluster Service. 
 
-**[Keycloak React App](https://github.com/passosleo/keycloak-react-app)**
+👉🏻 **[Keycloak React App](https://github.com/passosleo/keycloak-react-app)**
+
+Siga o guia abaixo para configuração:
+
+👉🏻 **[Guia de integração e configuração](https://jamboard.google.com/d/1p2sjMIA_BHvASBq7ffZ7mO2NGqeFy48nwczDjBWZuSU/viewer)**
 
 
 ## 🐳 Instalação
