@@ -90,7 +90,7 @@ ou
 docker start kc2
 ```
 
-As portas de acesso do Keycloak e do PostgreSQL podem ser configuradas no arquivo docker-compose.
+As portas de acesso do Keycloak e do PostgreSQL podem ser configuradas no arquivo docker-compose.yml.
 
 Os serviços podem ser gerenciados pelo Docker através dos seus respectivos nomes, conforme legenda:
 ```
