@@ -1,6 +1,6 @@
-# 🔑 Keycloak Cluster
+## 🔑 Keycloak Cluster
 
-Keycloak cluster composed with Nginx as load balancer and PostgreSQL
+A Keycloak cluster composed with Nginx as load balancer and PostgreSQL
 
 <img  width="500" src="https://user-images.githubusercontent.com/90735184/158608991-10152f05-e6af-4f9e-b3d8-7e485b406908.png">
 
@@ -41,4 +41,4 @@ http://localhost:8000/
 
 The repository below provides a simple ReactJS front-end application integrated with Keycloak.
 
-👉🏻 **[Keycloak React App](https://github.com/passosleo/keycloak-react-app)**
+👉🏻 **[Keycloak React App](https://github.com/passosleo/keycloak-react-poc)**
